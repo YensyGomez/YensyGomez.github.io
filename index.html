@@ -3,9 +3,30 @@
   <head>
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
+    <style>
+      a {
+        color: red;
+      }
+      #exec-bio {
+        background-color: lightgray;
+      }
+      .bio-box {
+        border: 1px solid black;
+      }
+      .bio1-box {
+        color: blue;
+      }
+      .bio-box a {
+        color: green;
+      }
+      #h1_id{
+        background-color: Orange;
+      }
+
+    </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
+    <h1 id= "h1_id" class="h1_class">I'm an h1</h1>
     <ul>
       <li>
         <a href="http://example.com/" style="color: red;">Link</a>
@@ -18,17 +39,17 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
-    </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
-    </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
-    </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
-    </div>
+      <div id="exec-bio" class="bio-box">
+        <a href="http://example.com/">I'm a link</a>
+      </div>
+      <div class="bio-box">
+        <a href="http://example.com/">I'm a link</a>
+      </div>
+      <div class="bio1-box">
+        <a href="http://example.com/">I'm a link</a>
+      </div>
+      <div class="bio-box">
+        <a href="http://example.com/">I'm a link</a>
+      </div>
   </body>
 </html>
