@@ -7,7 +7,7 @@
 
     /* GLOBAL STYLES */
       html, body {
-        font-size: 62.5%;
+        font-size:16px;
         margin: 0;
         padding: 0;
       }
@@ -19,16 +19,18 @@
         color: #bf42f4;
       }
       /*HERO STYLES */
-      .full-hero {
+      /* .full-hero {
         background-color: #c7dbfc;
         height: 50vw;
         width: 50vw;
-      }
+      } */
 
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150, 150, 150, 0.2);
-        color: #0101DF;
+        color: blue;
+        display: inline-block;
+        height: 36px;
       }
       .bio-wrapper {
       }
@@ -53,13 +55,29 @@
       .bio-copy{
         font-size: 1em
       }
+      .test-box {
+         background: #9db6dd;
+         width: 200px;
+         margin: 50px;
+       }
+       .test-box-nosizing {
+         border: 10px solid #000;
+         padding: 40px;
+         width: auto;
+       }
+       .test-box-sizing {
+         box-sizing: border-box;
+       }
     </style>
   </head>
   <body>
 
-    <div class="full-hero hero-home">
-      <h1 class= "social-link">I'm an h1</h1>
-      <div class= "social-link">
+    <div class="full-hero">
+      <h1>I'm an h1</h1>
+      <div class="test-box">200px wide</div>
+      <div class="test-box test-box-nosizing">200px wide + border + padding = 300px</div>
+      <div class="test-box test-box-nosizing test-box-sizing">200px wide + border + padding + box-sizing: border-box = 200px</div>
+      <div>
         <ul>
           <li>
             <a href="http://example.com/">Link</a>
