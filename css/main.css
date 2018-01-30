@@ -10,6 +10,13 @@ h1 {
 a {
   color: #f00;
 }
+h2 ~ p{
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
+}
 
 /* HERO STYLES */
 .full-hero {
@@ -50,6 +57,10 @@ a {
 .header-nav > li {
   display: inline-block;
   margin-left: 1em;
+}
+.header-nav > li ~ li {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  padding-left: 1em;
 }
 .header-nav a {
   color: #000;
