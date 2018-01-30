@@ -24,6 +24,18 @@ a {
 .header-nav a:active {
   color: #ed6e2f;
 }
+.header-nav > li:first-child a {
+  color: #ed6e2f;
+}
+.header-nav > li:first-child a:hover {
+  color: #000;
+}
+.header-nav > li:last-child a {
+  color: green;
+}
+.header-nav > li:last-child a:hover {
+  color: #000;
+}
 .header-logo:hover,
 .header-logo:active {
   opacity: 0.5;
