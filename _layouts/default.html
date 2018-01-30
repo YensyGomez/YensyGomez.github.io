@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Test Page: Don't Panic</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/main.css">
-
-  </head>
+    {% include head.html %}
   <body>
+      {% include header.html content="This is my sample note." %}
     <div class="full-hero hero-home">
       <h1>I'm an h1</h1>
       <ul class="social-list">
@@ -74,6 +69,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400">
         <h3>??</h3>
         <p>
           The Future

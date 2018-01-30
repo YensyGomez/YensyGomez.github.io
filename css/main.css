@@ -16,7 +16,25 @@ a {
   background-color: #c7dbfc;
   height: 50vh;
 }
-
+/* HEADER STYLE */
+.header {
+    background: #000;
+  }
+.header-nav {
+  float: right;
+  padding: 5.5vh 60px 0 0;
+}
+.header-nav > li {
+  display: inline-block;
+  margin-left: 1em;
+}
+.header-nav a {
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 /* SOCIAL STYLES */
 .social-link {
   background: rgba(150, 150, 150, 0.5);
