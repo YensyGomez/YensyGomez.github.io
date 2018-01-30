@@ -127,7 +127,7 @@ h2 ~ p {
   content: "";
   height: 0;
   left: 50%;
-  /* position: absolute; */
+  position: absolute;
   transform: translate(-50%, 0);
   width: 0;
 }
