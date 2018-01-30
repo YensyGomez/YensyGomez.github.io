@@ -16,6 +16,9 @@ a {
   background-color: #c7dbfc;
   height: 50vh;
 }
+.full-hero:hover{
+  background-color: blue;
+  }
 /* HEADER STYLE */
 .header-nav a:hover,
 .header-nav a:active {
