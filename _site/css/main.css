@@ -42,7 +42,7 @@ h2 ~ p {
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 .home-callout h3 {
   color: inherit;
