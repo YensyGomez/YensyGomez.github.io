@@ -5,7 +5,15 @@ html {
   padding: 0 30px;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: helvetica, arial, sans;
+}
+.content-container {
+  flex-grow: 1;
+  padding-top: 10vh;
+  width: 100%;
 }
 h1 {
   font-size: 7vw;
@@ -32,7 +40,8 @@ h2 ~ p {
 .header {
   background-color: #000;
   color: #fff;
-  position: fixed;
+  /* position: fixed; */
+  flex-grow: 1;
   width: 100%;
   z-index: 20;
 }
@@ -91,6 +100,7 @@ h2 ~ p {
   background-color: #000;
   padding: 10vh 0 15vh;
   text-align: center;
+  flex-grow: 1;
 }
 .footer-logo img {
   width: 50px;
@@ -116,8 +126,7 @@ h2 ~ p {
   background-color: #c7dbfc;
   background-size: cover;
   box-sizing: border-box;
-  height: 100vh;
-  padding-top: 10vh;
+  height: 90vh;
 }
 
 .full-hero:after {
