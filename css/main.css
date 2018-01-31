@@ -11,7 +11,7 @@ body {
   font-family: helvetica, arial, sans;
 }
 .content-container {
-  flex-grow: 1;
+  flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
 }
@@ -42,21 +42,20 @@ h2 ~ p {
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
+  flex-direction: row-reverse;
 }
 .home-callout h3 {
   color: inherit;
   margin-top: 1em;
 }
 .callout-title {
-  flex-grow: 1;
-  flex-basis: 0;
+  flex: 1;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
 .callout-copy {
-  flex-shrink: 0;
-  flex-basis: 300px;
+  flex: 0 0 45em;
   padding: 0 3vw;
   font-size: 0.8rem;
 }
