@@ -38,7 +38,7 @@ h2 ~ p {
 /* HOMEPAGE STYLES  */
 .home-callout {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
